@@ -3,6 +3,8 @@ pragma solidity ^0.8.9;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
+import "./ERC20.sol";
+
 contract DegenToken is ERC20{
     address public platformOwner;
     
